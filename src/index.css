@@ -35,6 +35,10 @@ body {
   
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 #root{
   width: 100%;
   display: flex;
@@ -42,6 +46,7 @@ body {
   justify-content: center;
   align-content: space-evenly;
   align-content: space-around;
+  transition: all 1s ease-in;
 }
 
 .active {
@@ -53,6 +58,7 @@ body {
 
   --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
 }
+
 
 section{
   display: grid;
