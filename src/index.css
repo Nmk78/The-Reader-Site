@@ -31,13 +31,11 @@ body::-webkit-scrollbar {
 body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  scroll-behavior: smooths;
   height:max-content;
   
 }
 
-html{
-  scroll-behavior: smooth;
-}
 
 #root{
   width: 100%;

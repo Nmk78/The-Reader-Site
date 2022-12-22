@@ -1,12 +1,12 @@
-import Logo from "../Assets/Logo.png";
+import Logo from "../Assets/theReader.svg";
 
 import { NavLink, Link, useMatch, useResolvedPath } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <nav className="sticky top-0 flex h-50 items-center bg-white shadow-md justify-between mb-12 z-10 opacity-95 px-20">
+    <nav className="sticky top-0 flex h-50 overflow-hidden items-center bg-white shadow-md justify-between mb-12 z-10 opacity-95 px-20">
       <Link to="/" className="site-title">
-        <img src={Logo} alt="" className="w-50 m-4" />
+        <img src={Logo} alt="" className="w-80 m-4" />
       </Link>
       <ul className="flex h-full  mr-5 space-x-0.5 items-center text-center">
         <CustomLink
@@ -17,14 +17,14 @@ const Navigation = () => {
         </CustomLink>
         <CustomLink
           to="/about"
-          href='#about'
+          // href='#about'
           className="flex items-center p-3 px-6 text-base h-full  hover:bg-gray-200 hover:rounded-b-md hover:drop-shadow-2xl focus:bg-gray-300 focus:rounded-b-md focus:drop-shadow-2xl"
         >
           About
         </CustomLink>
         <CustomLink
           to="/contact"
-          href='#contact'
+          // href='#contact'
           className="flex items-center p-3 px-6 text-base h-full  hover:bg-gray-200 hover:rounded-b-md hover:drop-shadow-2xl focus:bg-gray-300 focus:rounded-b-md focus:drop-shadow-2xl"
         >
           Contact
@@ -44,31 +44,6 @@ const Navigation = () => {
       </li>
     );
 
-    /* <nav className="sticky top-0 flex h-50 items-center bg-white shadow-md justify-between mb-12 z-10">
-        <Link to='/'>
-          <img src={Logo} alt="Logo" className="w-50 m-4" />
-        </Link>
-
-        <NavLink className="flex h-full text-center items-center">
-          <ul className=" flex h-full  mr-5 space-x-4 items-center text-center ">
-            <Link to="/">
-              <button className="flex items-center p-3 text-base h-full  hover:bg-gray-200 hover:rounded-b-md hover:drop-shadow-2xl focus:bg-gray-300 focus:rounded-b-md focus:drop-shadow-2xl">
-                Home
-              </button>
-            </Link>
-            <Link to="/about">
-              <button className="flex items-center p-3 text-base h-full  hover:bg-gray-200 hover:rounded-b-md hover:drop-shadow-2xl focus:bg-gray-300 focus:rounded-b-md focus:drop-shadow-2xl">
-                About
-              </button>
-            </Link>
-            <Link to="/contact">
-              <button className="flex items-center p-3 text-base h-full  hover:bg-gray-200 hover:rounded-b-md hover:drop-shadow-2xl focus:bg-gray-300 focus:rounded-b-md focus:drop-shadow-2xl">
-                Contact
-              </button>
-            </Link>
-          </ul>
-        </NavLink>
-      </nav> */
   }
   <h1>Nav</h1>;
 };

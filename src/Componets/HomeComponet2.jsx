@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import sample4 from '../Assets/sample4.png'
+import Logo from '../Assets/Logo.jpg';
 
 import Aos from "aos";
 import 'aos/dist/aos.css'
@@ -16,7 +16,7 @@ const HomeComponet2 = () => {
         ducimus eveniet.
       </div>
       <div data-aos='fade-left' className="w-300 h-auto">
-            <img src={sample4} alt="" />
+            <img src={Logo} alt="" />
       </div>
     </div>
   );

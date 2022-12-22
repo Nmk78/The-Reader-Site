@@ -15,7 +15,7 @@ const Home = () => {
       <HomeComponet2 />
 
       <About />
-      <Contact data-aos='fade-right'/>
+      {/* <Contact data-aos='fade-right'/> */}
     </div>
   );
 };
