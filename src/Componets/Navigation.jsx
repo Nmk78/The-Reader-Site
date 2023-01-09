@@ -2,11 +2,24 @@ import Logo from "../Assets/theReader.svg";
 import { useEffect, useState } from "react";
 import { NavLink, Link, useMatch, useResolvedPath } from "react-router-dom";
 
-const Navigation = () => {
+// import info from'../Text/info.json';
 
-  const [language, setLanguage] = useState("English");
-  const [article, setArticles] = useState({});
+const Navigation = ({language,setLanguage}) => {
 
+  // const [language, setLanguage] = useState("English");
+  // const [article, setArticles] = useState({});
+
+  // useEffect(() => {
+    
+  //   if (language === "English") {
+  //     setArticles(info.English)
+  //   }else if (language === "Myanmar") {
+  //     setArticles(info.Myanmar)
+  //   }
+
+
+  // }, [])
+  
   return (
     <nav className="sticky top-0 flex h-50 overflow-hidden items-center bg-white shadow-md justify-between mb-12 z-10 opacity-95 px-20">
       <Link to="/" className="site-title">
@@ -34,12 +47,15 @@ const Navigation = () => {
           Contact
         </CustomLink>
 
-        <div className="flex items-center p-2 px-6 text-base h-full  hover:bg-gray-200 hover:rounded-b-md hover:drop-shadow-2xl focus:bg-gray-300 focus:rounded-b-md focus:drop-shadow-2xl border:none">
-          <select>
-            <option value="Myanmar">မြန်မာ</option>
-            <option value="Myanmar">English</option>
+        <CustomLink className="flex items-center p-2 px-6 text-base h-full bg-white  hover:bg-gray-200 hover:rounded-b-md hover:drop-shadow-2xl border:none">
+          <select 
+          value={language} 
+           onChange={(e)=>{setLanguage(e.target.value)}}
+           >
+            <option>မြန်မာ</option>
+            <option>English</option>
           </select>
-        </div>
+        </CustomLink>
         
       </ul>
     </nav>
@@ -56,7 +72,7 @@ const Navigation = () => {
       </li>
     );
   }
-  <h1>Nav</h1>;
+  // <h1>Nav</h1>;
 };
 
 export default Navigation;

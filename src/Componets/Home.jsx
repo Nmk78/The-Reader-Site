@@ -1,32 +1,21 @@
-import React from "react";
-import { useNavigate, Link } from "react-router-dom";
 import About from "../Pages/About";
 import Carosel from "./CarouselComponet";
 import Contact from "./Contact";
 import HomeComponet2 from "./HomeComponet2";
 
-let Text = [
-  {
-    English: "Loraemmmmmkljedfkslfjedofpiepoidfjkxmn,ejdsklxmmmm",
-    Myanmar: "ျြိ်စသိ်နသ်ိငး်ငိုူ်ြာလ,ထြလာိူ်င၀တနသ္",
-  },
-  {
-    English: "Englishadkfjd;fdslf",
-    Myanmar: "ျြိ်စသိ်နသ်ိငး်ငိုူ်ြာလ,ထြလာိူ်င၀တနသ္",
-  },
-];
 
-const Home = () => {
-  const navigate = useNavigate();
+const Home = ({articles}) => {
+
+  console.log(articles)
 
 
   return (
     <div className="flex flex-col content-between">
       <Carosel />
-      <HomeComponet2 text={Text} />
+      <HomeComponet2 articles={articles} />
 
-      <About />
-      {/* <Contact data-aos='fade-right'/> */}
+      <About articles={articles} />
+      <Contact articles={articles} data-aos='fade-right'/>
     </div>
   );
 };
