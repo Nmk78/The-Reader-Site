@@ -1,8 +1,12 @@
 import Logo from "../Assets/theReader.svg";
-
+import { useEffect, useState } from "react";
 import { NavLink, Link, useMatch, useResolvedPath } from "react-router-dom";
 
 const Navigation = () => {
+
+  const [language, setLanguage] = useState("English");
+  const [article, setArticles] = useState({});
+
   return (
     <nav className="sticky top-0 flex h-50 overflow-hidden items-center bg-white shadow-md justify-between mb-12 z-10 opacity-95 px-20">
       <Link to="/" className="site-title">
@@ -29,6 +33,14 @@ const Navigation = () => {
         >
           Contact
         </CustomLink>
+
+        <div className="flex items-center p-2 px-6 text-base h-full  hover:bg-gray-200 hover:rounded-b-md hover:drop-shadow-2xl focus:bg-gray-300 focus:rounded-b-md focus:drop-shadow-2xl border:none">
+          <select>
+            <option value="Myanmar">မြန်မာ</option>
+            <option value="Myanmar">English</option>
+          </select>
+        </div>
+        
       </ul>
     </nav>
   );
@@ -43,7 +55,6 @@ const Navigation = () => {
         </Link>
       </li>
     );
-
   }
   <h1>Nav</h1>;
 };
