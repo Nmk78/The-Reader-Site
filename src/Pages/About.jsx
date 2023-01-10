@@ -14,7 +14,7 @@ const About = (props) => {
   // console.log(props)
   return (
     <>
-      <div data-aos='fade-right' className="text-xl m-10 z-index-3" >
+      <div data-aos='fade-right' className="text-sm w-full md:text-xl px-6 mx-auto my-10 z-index-3" >
       {props.articles.about}
       </div>
 

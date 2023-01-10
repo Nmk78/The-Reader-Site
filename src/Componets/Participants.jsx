@@ -25,7 +25,7 @@ export default function Participants() {
           <figcaption class="flex items-center justify-center space-x-3">
             <img
               class="rounded-full w-9 h-9"
-              src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
+              src="https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/321115102_1115069889028621_102309157165589400_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pwn784hL3OoAX-meO18&_nc_ht=scontent-sin6-3.xx&oh=00_AfC78XSSdYZi9SJvCyIqXAJ6_p3TsZ5KeJBUJ-WUhLq0qw&oe=63C02695"
               alt="profile picture"
             />
             <div class="space-y-0.5 font-mediumtext-black text-left">

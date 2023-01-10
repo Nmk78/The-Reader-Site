@@ -5,6 +5,7 @@ import { useState } from "react";
 
 const Navigation = ({ language, setLanguage }) => {
   let ul = document.querySelector("ul");
+  let nav = document.querySelector("nav");
 
   const [open, setOpen] = useState(false);
 
@@ -20,15 +21,17 @@ const Navigation = ({ language, setLanguage }) => {
 
     if (open) {
       //to close the menu //to slide up the menu
-      ul.classList.remove("relative","top-[3px]", "top-[-180px]");
-      ul.classList.add("absolute","top-[-300px]" );
+      ul.classList.remove("top-[2px]", "top-[-180px]","mt-14");
+      nav.classList.remove("relative","h-285")
+      ul.classList.add("absolute","top-[-300px]","hidden");
       console.log(open);
       setOpen(false);
       // return open;
     }else{
       //to open the menu //to slide down the menu
-      ul.classList.remove("absolute","top-[-300px]", "top[-180px");
-      ul.classList.add("relative","top-[3px]");
+      ul.classList.remove("hidden","absolute","top-[-300px]", "top[-180px]");
+      nav.classList.add("relative", "h-285")
+      ul.classList.add("absolute","top-[12px]", "mt-14");
       console.log(open);
       setOpen(true);
       // return open;
@@ -49,7 +52,7 @@ const Navigation = ({ language, setLanguage }) => {
       />
 
       <ul
-        className="z-100 opacity-100 text:center absolute md:relative top-[-180px] transition-all ease-in duration-3000 md:h-full mx-l-auto bg-white w-full md:static md:flex md:items-center md:space-x-0.5 md:justify-end"
+        className="md:inline md:top-[-2px] md:h-full md:static md:flex md:items-center md:space-x-0.5 md:justify-end md:relative md:z-100 z-50 opacity-100 mx-l-auto bg-white w-full text:center absolute top-[-180px] transition-all ease-in duration-3000"
         //have to change thsi absolute to relative and set top to 0
         // className="flex h-full mr-5 space-x-0.5 items-center text-center"
       >
