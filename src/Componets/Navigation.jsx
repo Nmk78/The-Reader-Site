@@ -5,21 +5,39 @@ import { useState } from "react";
 
 const Navigation = ({ language, setLanguage }) => {
   let ul = document.querySelector("ul");
+
   const [open, setOpen] = useState(false);
 
   let menuToggler = () => {
-    open === false 
-      ? (ul.classList.remove("absolute"),
-        console.log(open),
-        ul.classList.add("top-[0px]", "relative", setOpen(true)))
-      : (ul.classList.add("top-[-260px], absolute"),
-      console.log(open),
-        ul.classList.remove("relative"), setOpen(false));
+    // open === true
+    //   ? (ul.classList.add("top-[-260px], absolute"),
+    //     console.log(open),
+    //     ul.classList.remove("relative"),
+    //     setOpen(false))
+    //   : ul.classList.add("top-[0px]", "relative", setOpen(true)),
+    // console.log(open), ul.classList.remove("absolute");
     // return open;
+
+    if (open) {
+      //to close the menu //to slide up the menu
+      ul.classList.remove("relative","top-[3px]", "top-[-180px]");
+      ul.classList.add("absolute","top-[-300px]" );
+      console.log(open);
+      setOpen(false);
+      // return open;
+    }else{
+      //to open the menu //to slide down the menu
+      ul.classList.remove("absolute","top-[-300px]", "top[-180px");
+      ul.classList.add("relative","top-[3px]");
+      console.log(open);
+      setOpen(true);
+      // return open;
+
+    }
   };
 
   return (
-    <nav className=" overflow-hidden items-center sticky top-0 bg-white z-100 w-full h-auto shadow-md md:justify-between md:flex">
+    <nav className=" transition-all ease-in duration-3000 overflow-hidden items-center sticky top-0 bg-white z-100 w-full h-auto shadow-md md:justify-between md:flex">
       {/* className="sticky w-full top-0 flex h-50 overflow-hidden items-center bg-white shadow-md justify-between mb-12 z-10 opacity-95 px-20"> */}
 
       <Link to="/" className="site-title inline flex w-80 my-0 md:w-90 ">
@@ -31,7 +49,7 @@ const Navigation = ({ language, setLanguage }) => {
       />
 
       <ul
-        className="z-100 opacity-100 text:center absolute top-[-260px] transition-all ease-in duration-500 md:h-full mx-l-auto bg-white w-full md:static md:flex md:items-center md:space-x-0.5 md:justify-end"
+        className="z-100 opacity-100 text:center absolute md:relative top-[-180px] transition-all ease-in duration-3000 md:h-full mx-l-auto bg-white w-full md:static md:flex md:items-center md:space-x-0.5 md:justify-end"
         //have to change thsi absolute to relative and set top to 0
         // className="flex h-full mr-5 space-x-0.5 items-center text-center"
       >

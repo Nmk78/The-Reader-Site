@@ -3,8 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      inset: {
+      top: {
+        '-180px': '-180px',
         '-200px': '-200px',
+        '-300px': '-270px',
+        '2px': '2px',
         '200px': '200px',
       },
       zIndex: {
