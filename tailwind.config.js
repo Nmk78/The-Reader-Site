@@ -3,7 +3,18 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      inset: {
+        '-200px': '-200px',
+        '200px': '200px',
+      },
+      zIndex: {
+        '100': '100',
+        '50': '50',
+        '1': '1',
+        '0': '0',
+      },
       margin: {
+        240: '240px',
         320: '320px',
       },
       width: {

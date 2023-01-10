@@ -6,7 +6,7 @@ import HomeComponet2 from "./HomeComponet2";
 
 const Home = ({articles}) => {
 
-  console.log(articles)
+  // console.log(articles)
 
 
   return (

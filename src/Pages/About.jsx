@@ -11,7 +11,7 @@ const About = (props) => {
   useEffect(() =>{
     Aos.init({duration:2000})
   })
-  console.log(props)
+  // console.log(props)
   return (
     <>
       <div data-aos='fade-right' className="text-xl m-10 z-index-3" >

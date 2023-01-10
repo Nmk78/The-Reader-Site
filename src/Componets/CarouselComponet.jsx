@@ -22,8 +22,8 @@ let slides = [
 const CarouselComponet = () => {
   return (
     <>
-      <div className="h-340 ">
-        <Carousel slides={slides} autoplay={true} interval={3500} />
+      <div className="h-240 pt-2 md:300 z-0">
+        <Carousel  slides={slides} autoplay={true} interval={3500} />
       </div>
       <p className="my-10 text-4xl mx-auto">Our Talk</p>
     </>

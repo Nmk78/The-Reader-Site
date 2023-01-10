@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 
 const Contact = ({articles}) => {
-  console.log(articles)
+  // console.log(articles)
   return (
     <div className="h-screen bg-gray-100 m-0 flex flex-col align-center items-center justify-center">
       <span className="text-xxl flex justify-center align-center mx-20 my-20 ">
