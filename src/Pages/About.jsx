@@ -18,7 +18,7 @@ const About = (props) => {
       {props.articles.about}
       </div>
 
-      <Participants />
+      <Participants  />
     </>
   );
 };

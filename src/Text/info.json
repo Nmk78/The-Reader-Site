@@ -5,54 +5,62 @@
 
     "contact": "Actually we didn't have any special hotline number but if you want to connect with us, you can use the link below.",
 
-    "Review": {
-      "KKK": {
+    "Review": [
+      {
         "name": "K Khing Kyaw",
         "URL": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/311777644_100363952888393_3186465748895701745_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=JFIhFp-nLfUAX-YIOrM&_nc_ht=scontent-sin6-2.xx&oh=00_AfAQ-P1yyFn3GF7aNsfPaXNJ6A4J2rNTFEfO31WuAh0WKA&oe=63C2802F",
         "Header": "The Reader Club နဲ့ပတ်သက်ပြီးဘာပြောချင်လဲ? အရမ်းသဘောကျပါတယ်ရှင့်",
         "whyDoULike": "စာအုပ်အကြောင်းအပြင်ဗဟုသုတရစရာတွေကော အရမ်းကောင်းတဲ့အကိုအမတွေညီမလေးတွေနဲ့တွေ့ရလို့ ပိုကောင်းတဲ့ပတ်ဝန်းကျင်ကိုရလာလို့"
       },
-      "TPN": {
+      {
         "name": "Thiri Phyo Naing",
         "URL": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-1/312315579_1131511054413796_5619855629909419799_n.jpg?stp=dst-jpg_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=awKYU_eJp5cAX9NoBO0&_nc_ht=scontent-sin6-2.xx&oh=00_AfAiRNPjT4ZrqKDPAIrELQUDldatyc3b_eqwOrGd_Fu4lA&oe=63C25C2B",
         "Header": "အခုလို ဒီclubလေး ရှိနေတဲ့အတွက်စာအကြောင်းပေအကြောင်းတွေလဲနားထောင်ခွင့်ရသလို ဗဟုသုတတွေလဲရပါတယ် အခုလိုလုပ်ပေးတဲ့ အစ်ကိုဝေယံသိန်းကျေးဇူးပါနော်",
         "whyDoULike": "စာအုပ်အကြောင်းတွေနားထောင်ခွင့်ရလို့"
       },
-      "CTY": {
+      {
         "name": "Cyinthia",
         "URL": "",
-        "Header": "ဘာမှ မပြောချင်ဘူး"
+        "Header": "The Reader Club နဲ့ပတ်သက်ပြီးဘာပြောချင်လဲ? ဘာမှ မပြောချင်ဘူး",
+        "whyDoULike": "ကြိုက်လို့"
       },
-      "Ei Phyu Zin": {
+      {
         "name": "Ei Phyu Zin",
         "URL": "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/313935271_111251985131128_4302590437259801413_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=OD0tgrY121AAX-yvTs3&_nc_ht=scontent-sin6-4.xx&oh=00_AfALOGBmfuq6FaxNhQO3-Dx-cUb0Qby4UQiAoqmURAU8Qg&oe=63C2362F",
         "Header": "သိပ်ကောင်းတဲ့ club ပါ။",
         "whyDoULike": "Bookworms တွေနဲ့စာအုပ်အကြောက်းဆွေးနွေးချင်လို့"
       },
-      "Hippo": {
+      {
         "name": "Hippo",
         "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT10evPRuh0uqV9VR_lVN1X9S5mFe5JZ3hNiEGPmAt2Yw&s",
-        "Header": "Gp Join ရင် ပြောရမယ်ဆိုတဲ့အသိကြောင့် စာအုပ်တွေပိုဖတ်ဖြစ်လို့"
+        "Header": "The Reader Club နဲ့ပတ်သက်ပြီးဘာပြောချင်လဲ? အရမ်းကောင်းတယ် Yes....",
+        "whyDoULike": "Gp Join ရင် ပြောရမယ်ဆိုတဲ့အသိကြောင့် စာအုပ်တွေပိုဖတ်ဖြစ်လို့"
       },
-      "ZMT": {
+      {
         "name": "ဇင်မင်းထွန်း",
         "URL": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-1/248591446_4559168627477071_4848289160135011278_n.jpg?stp=dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=7206a8&_nc_ohc=nFmCYvLokMUAX-JiPBW&_nc_ht=scontent-sin6-2.xx&oh=00_AfA98uudGC_5jKf3Tgy2sg0lPPSctYFUsT1Go9_glbzp-g&oe=63C3039D",
         "Header": "The Reader Club နဲ့ပတ်သက်ပြီးဘာပြောချင်လဲ? အခုထက် အချိန်စောစောလေး စဖြစ်စေချင်တာ",
         "whyDoULike": "စာအုပ်အကြောင်းအရာလေးတွေကို စာဖတ်သူရဲ့ review နဲ့အတူတူသိရတဲ့အတွက် ဖတ်စရာစာအုပ်လေးတွေပိုတိုးလာလို့ပါ ပြီးတော့စကားပြောစွမ်းရည်လေးတွေနားထောင်ရတာကြိုက်တယ်။ဝိုင်းဝန်းဆွေးနွေးမေးမြန်းကြတာရယ် အဖြေတွေရယ်က စိတ်ဝင်စားစရာမို့ပါ။"
       },
-      "KST": {
+      {
         "name": "Khant Sithu",
         "URL": "chrome://favicon/size/64@1x/https://github.com/Nmk78",
         "Header": "The Reader Clubလုပ််ပေးတာ ကျေးဇူးကမ္ဘာပါလို့...",
         "whyDoULike": "ဘာလို့ Join ဖြစ်တာလဲ? မ Join ဘဲ မနေနိုင်လို့"
       },
-      "NMK": {
+      {
+        "name": "ယမင်းလှိုင်",
+        "URL": "chrome://favicon/size/64@1x/https://github.com/Nmk78",
+        "Header": "စာအုပ်တွေအကြောင်းပြောချင်လို့Join ဖြစ်တာ",
+        "whyDoULike": "ဘာလို့ Join ဖြစ်တာလဲ?စာအုပ်တွေအကြောင်းများများနားထောင်ရတော့ စာဖတ်ဖို့ မပျင်းဘဲ ရင်းနှီးလာလို့ပါရှင်"
+      },
+      {
         "name": "Nay Myo Khant",
         "URL": "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/321115102_1115069889028621_102309157165589400_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pwn784hL3OoAX-meO18&_nc_ht=scontent-sin6-3.xx&oh=00_AfC78XSSdYZi9SJvCyIqXAJ6_p3TsZ5KeJBUJ-WUhLq0qw&oe=63C02695",
         "Header": "စာပိုဖတ်ချင်ဖို့တွန်းအားရတဲ့နေရာ",
         "whyDoULike": "အမြင်သစ်တွေရလို့"
       }
-    }
+    ]
   },
   "Myanmar": {
     "intro": "မတူညီတဲ့ဘဝတွေမှာ နေကြည့်ဖို့၊ မရောက်နိုင်တဲ့ဒေသတွေကို သွားကြည့်ဖို့၊ဘဝကို ရှုထောင့်ပြောင်းကြည့်ဖို့၊ကျေနပ်ဖို့၊ပြည့်ဝဖို့၊အဖော်ပြုဖို့၊ကျတော်တို့စာဖတ်ကြတယ်။",
@@ -60,53 +68,61 @@
 
     "contact": "Actually we didn't have any special hotline number but if you want to connect with us, you can use the link below.",
 
-    "Review": {
-      "KKK": {
+    "Review": [
+      {
         "name": "K Khing Kyaw",
         "URL": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-6/311777644_100363952888393_3186465748895701745_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=JFIhFp-nLfUAX-YIOrM&_nc_ht=scontent-sin6-2.xx&oh=00_AfAQ-P1yyFn3GF7aNsfPaXNJ6A4J2rNTFEfO31WuAh0WKA&oe=63C2802F",
         "Header": "The Reader Club နဲ့ပတ်သက်ပြီးဘာပြောချင်လဲ? အရမ်းသဘောကျပါတယ်ရှင့်",
         "whyDoULike": "စာအုပ်အကြောင်းအပြင်ဗဟုသုတရစရာတွေကော အရမ်းကောင်းတဲ့အကိုအမတွေညီမလေးတွေနဲ့တွေ့ရလို့ ပိုကောင်းတဲ့ပတ်ဝန်းကျင်ကိုရလာလို့"
       },
-      "TPN": {
+      {
         "name": "Thiri Phyo Naing",
         "URL": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-1/312315579_1131511054413796_5619855629909419799_n.jpg?stp=dst-jpg_s320x320&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_ohc=awKYU_eJp5cAX9NoBO0&_nc_ht=scontent-sin6-2.xx&oh=00_AfAiRNPjT4ZrqKDPAIrELQUDldatyc3b_eqwOrGd_Fu4lA&oe=63C25C2B",
         "Header": "အခုလို ဒီclubလေး ရှိနေတဲ့အတွက်စာအကြောင်းပေအကြောင်းတွေလဲနားထောင်ခွင့်ရသလို ဗဟုသုတတွေလဲရပါတယ် အခုလိုလုပ်ပေးတဲ့ အစ်ကိုဝေယံသိန်းကျေးဇူးပါနော်",
         "whyDoULike": "စာအုပ်အကြောင်းတွေနားထောင်ခွင့်ရလို့"
       },
-      "CTY": {
+      {
         "name": "Cyinthia",
         "URL": "",
-        "Header": "ဘာမှ မပြောချင်ဘူး"
+        "Header": "ဘာမှ မပြောချင်ဘူး",
+        "whyDoULike": "ကြိုက်လို့"
       },
-      "Ei Phyu Zin": {
+      {
         "name": "Ei Phyu Zin",
         "URL": "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/313935271_111251985131128_4302590437259801413_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=OD0tgrY121AAX-yvTs3&_nc_ht=scontent-sin6-4.xx&oh=00_AfALOGBmfuq6FaxNhQO3-Dx-cUb0Qby4UQiAoqmURAU8Qg&oe=63C2362F",
         "Header": "သိပ်ကောင်းတဲ့ club ပါ။",
         "whyDoULike": "Bookworms တွေနဲ့စာအုပ်အကြောက်းဆွေးနွေးချင်လို့"
       },
-      "Hippo": {
+      {
         "name": "Hippo",
         "URL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT10evPRuh0uqV9VR_lVN1X9S5mFe5JZ3hNiEGPmAt2Yw&s",
-        "Header": "Gp Join ရင် ပြောရမယ်ဆိုတဲ့အသိကြောင့် စာအုပ်တွေပိုဖတ်ဖြစ်လို့"
+        "Header": "The Reader Club နဲ့ပတ်သက်ပြီးဘာပြောချင်လဲ? အရမ်းကောင်းတယ် Yes....",
+        "whyDoULike": "Gp Join ရင် ပြောရမယ်ဆိုတဲ့အသိကြောင့် စာအုပ်တွေပိုဖတ်ဖြစ်လို့"
       },
-      "ZMT": {
+      {
         "name": "ဇင်မင်းထွန်း",
         "URL": "https://scontent-sin6-2.xx.fbcdn.net/v/t39.30808-1/248591446_4559168627477071_4848289160135011278_n.jpg?stp=dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=7206a8&_nc_ohc=nFmCYvLokMUAX-JiPBW&_nc_ht=scontent-sin6-2.xx&oh=00_AfA98uudGC_5jKf3Tgy2sg0lPPSctYFUsT1Go9_glbzp-g&oe=63C3039D",
         "Header": "The Reader Club နဲ့ပတ်သက်ပြီးဘာပြောချင်လဲ? အခုထက် အချိန်စောစောလေး စဖြစ်စေချင်တာ",
         "whyDoULike": "စာအုပ်အကြောင်းအရာလေးတွေကို စာဖတ်သူရဲ့ review နဲ့အတူတူသိရတဲ့အတွက် ဖတ်စရာစာအုပ်လေးတွေပိုတိုးလာလို့ပါ ပြီးတော့စကားပြောစွမ်းရည်လေးတွေနားထောင်ရတာကြိုက်တယ်။ဝိုင်းဝန်းဆွေးနွေးမေးမြန်းကြတာရယ် အဖြေတွေရယ်က စိတ်ဝင်စားစရာမို့ပါ။"
       },
-      "KST": {
+      {
         "name": "Khant Sithu",
         "URL": "chrome://favicon/size/64@1x/https://github.com/Nmk78",
         "Header": "The Reader Clubလုပ််ပေးတာ ကျေးဇူးကမ္ဘာပါလို့...",
         "whyDoULike": "ဘာလို့ Join ဖြစ်တာလဲ? မ Join ဘဲ မနေနိုင်လို့"
       },
-      "NMK": {
+      {
+        "name": "ယမင်းလှိုင်",
+        "URL": "chrome://favicon/size/64@1x/https://github.com/Nmk78",
+        "Header": "စာအုပ်တွေအကြောင်းပြောချင်လို့Join ဖြစ်တာ",
+        "whyDoULike": "ဘာလို့ Join ဖြစ်တာလဲ?စာအုပ်တွေအကြောင်းများများနားထောင်ရတော့ စာဖတ်ဖို့ မပျင်းဘဲ ရင်းနှီးလာလို့ပါရှင်"
+      },
+      {
         "name": "Nay Myo Khant",
         "URL": "https://scontent-sin6-3.xx.fbcdn.net/v/t39.30808-6/321115102_1115069889028621_102309157165589400_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=pwn784hL3OoAX-meO18&_nc_ht=scontent-sin6-3.xx&oh=00_AfC78XSSdYZi9SJvCyIqXAJ6_p3TsZ5KeJBUJ-WUhLq0qw&oe=63C02695",
         "Header": "စာပိုဖတ်ချင်ဖို့တွန်းအားရတဲ့နေရာ",
         "whyDoULike": "အမြင်သစ်တွေရလို့"
       }
-    }
+    ]
   }
 }
