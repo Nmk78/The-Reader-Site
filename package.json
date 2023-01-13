@@ -1,5 +1,5 @@
 {
-  "name": "The Reader",
+  "name": "The-Reader",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,8 +10,8 @@
     "3d-react-carousal": "^5.0.0",
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
     "react-icons": "^4.7.1",
     "react-intersection-observer": "^9.4.1",
     "react-router-dom": "^6.4.4",

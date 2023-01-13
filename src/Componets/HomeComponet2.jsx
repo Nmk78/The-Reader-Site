@@ -14,11 +14,11 @@ const HomeComponet2 = (props) => {
   })
 
   return (
-    <div className="flex items-center content-evenly m-auto hidding">
-      <div data-aos='fade-right' className="text-sm w-175 md:text-xl md:w-350">
+    <div className="flex items-center justify-center content-evenly m-auto hidding">
+      <div data-aos='fade-right' className="text-sm font-semibold ml-1/5 w-2/5">
         {props.articles.intro}
       </div>
-      <div data-aos='fade-left' className="w-175 md:w-300 h-auto">
+      <div data-aos='fade-left' className="w-2/5 mr-1/5 h-auto">
             <img src={Logo} alt="" />
       </div>
     </div>
